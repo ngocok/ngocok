@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: "Welcome to Jekyll"
 date: 2016-05-08 20:34:26
 image: '/assets/img/'
