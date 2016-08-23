@@ -12,14 +12,12 @@ finished: true
  yha inilah dia ririsan pertama dari kami jadi kalo ada tipo ato yang lain harap di maklumi hehe
 
 
-
 >Artist: gujira minakami kurena 
 >Parody : prunus girl
 
 >Download : 
 >Galeri (e hentai) :
 
-----------
 
 
 
