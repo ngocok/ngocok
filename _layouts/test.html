@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      
+  {% include head.html %}
+
+  {% if site.google-analytics %}
+  {% include google-analytics.html %}
+  {% endif %}
+
+  {% if page.url == "/404.html" %}
+  <meta http-equiv="refresh" content="10; url={{ site.baseurl }}">
+  {% endif %}
+
+  </head>
+
+  <body>
+
+  {% include header.html %}
+
+  <div class="wrapper">
+        {{ content }}
+  </div>
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-backstretch/2.0.4/jquery.backstretch.min.js"></script>
+    <script>
+        // Image pool to select from
+        var images = [
+            'image1.jpg', 'image2.jpg', 'image3.jpg'
+        ];
+
+        // Pick a random image
+        var maxImages   = images.length;
+        var rand        = Math.floor(Math.random() * maxImages);
+        var image       = images[rand];
+
+         // Set image as background
+        $(".jumbotron").backstretch(
+            '/bg/' + image,
+            {
+                centeredY: false
+            }
+        );
+    </script>
+
+</body>
+
+<foot>
+
+    {% include footer.html %}
+    {% include foot.html %}
+
+</foot>
+
+</html>
