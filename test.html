@@ -2,27 +2,6 @@
 layout: test
 ---
 
-   <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-backstretch/2.0.4/jquery.backstretch.min.js"></script>
-    <script>
-        // Image pool to select from
-        var images = [
-            'image1.jpg', 'image2.jpg', 'image3.jpg'
-        ];
-
-        // Pick a random image
-        var maxImages   = images.length;
-        var rand        = Math.floor(Math.random() * maxImages);
-        var image       = images[rand];
-
-         // Set image as background
-        $(".jumbotron").backstretch(
-            '/bg/' + image,
-            {
-                centeredY: false
-            }
-        );
-    </script>
-
 <style>
 
 .index-content {
@@ -31,11 +10,11 @@ layout: test
 	font-size: 18px;
 }
 
-
 </style>
 
 <center>
 	<div class="jumbotron">
+  <div class="container text-center">
 	<p class="index-content">Sudahkah anda ngocok hari ini ?</p>
   </div>
 </div>
