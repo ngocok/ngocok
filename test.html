@@ -3,10 +3,14 @@ layout: test
 ---
 
 <style>
-body {
-    background-image:url(/bg/image3.jpg); 
-       background-repeat:no-repeat;
-        background-size:cover;
+{ margin: 0; padding: 0; }
+html { 
+        background: url('/bg/image3.jpg') no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+}
 .index-content {
 	margin-top: 30%;
 	margin-bottom: 30%;
