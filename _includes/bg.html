@@ -1,0 +1,20 @@
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-backstretch/2.0.4/jquery.backstretch.min.js"></script>
+    <script>
+        // Image pool to select from
+        var images = [
+            'img.jpg', '2.png'
+        ];
+
+        // Pick a random image
+        var maxImages   = images.length;
+        var rand        = Math.floor(Math.random() * maxImages);
+        var image       = images[rand];
+
+         // Set image as background
+        $(".jumbotron").backstretch(
+            '/bg/images/' + image,
+            {
+                centeredY: false
+            }
+        );
+    </script>
