@@ -3,14 +3,14 @@ layout: default
 ---
 
 <style>
-.waifu { 
+.img2 {
   z-index: -2;
-  position: fixed; 
-  max-height: 75%;
-  bottom: 0%; 
-left: 5%;
+  position: fixed;
+  max-height: 60%;
+  bottom: 0%;
+  left: 75%;
+}
 
- }
 .index-content {
 	margin-top: 30%;
 	margin-bottom: 30%;
@@ -23,9 +23,9 @@ left: 5%;
 <script>
 var pictures = ['bg/Chiaki.png', 'bg/Tomoko.png',];
 var picture = pictures[Math.floor(Math.random() * pictures.length)];
-document.write('<img class="waifu" src="' + picture + '"/>');
+document.write('<img class="img2" src="' + picture + '"/>');
 </script>
+</body>
 <center>
 	<p class="index-content">Sudahkah anda ngocok hari ini ?</p> 
 </center>
-</body>
