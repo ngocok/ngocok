@@ -5,10 +5,24 @@ layout: default
 <script>
     var images = ['1.jpg', 'img.jpg', '2.png'];
     
-    $('<img class="fade-in" src="images/' + images[Math.floor(Math.random() * images.length)] + '">').appendTo('#banner-load'); 
+    $('<img class="fade-in" src="/bg/' + images[Math.floor(Math.random() * images.length)] + '">').appendTo('#banner-load'); 
 </script>
 
 <style>
+.fade-in{
+  -webkit-animation: fade-in 2s ease;
+  -moz-animation: fade-in ease-in-out 2s both;
+  -ms-animation: fade-in ease-in-out 2s both;
+  -o-animation: fade-in ease-in-out 2s both;
+  animation: fade-in 2s ease;
+  visibility: visible;
+  -webkit-backface-visibility: hidden;
+}
+
+@-webkit-keyframes fade-in{0%{opacity:0;} 100%{opacity:1;}}
+@-moz-keyframes fade-in{0%{opacity:0} 100%{opacity:1}}
+@-o-keyframes fade-in{0%{opacity:0} 100%{opacity:1}}
+@keyframes fade-in{0%{opacity:0} 100%{opacity:1}}
 
 .index-content {
 	margin-top: 30%;
