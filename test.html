@@ -1,6 +1,12 @@
 ---
-layout: test
+layout: default
 ---
+
+<script>
+    var images = ['1.jpg', 'img.jpg', '2.png'];
+    
+    $('<img class="fade-in" src="images/' + images[Math.floor(Math.random() * images.length)] + '">').appendTo('#banner-load'); 
+</script>
 
 <style>
 
@@ -11,7 +17,10 @@ layout: test
 }
 
 </style>
+
+
 <center>
-	<div class="jumbotron">
-	<p class="index-content">Sudahkah anda ngocok hari ini ?</p>   </div>
+	<div id="banner-load">
+	<p class="index-content">Sudahkah anda ngocok hari ini ?</p> 
+	</div>
 </center>
