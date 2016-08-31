@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "test feed"
-date: 2016-08-25
+title: "[Kumikae DNA (Minakami Kurena)] Ore to Aikawa ga Hokenshitsu de Himitsu no xxx | Me and Aikawa and Secret XXX in the Nurse's Office (Prunus Girl) [ngocok] "
+date: 2016-09-02
 category: Doujinshi
 tags: trap crossdressing yaoi
 finished: true
@@ -10,10 +10,9 @@ finished: true
 ###### (SC53) [Kumikae DNA (Minakami Kurena)] Ore to Aikawa ga Hokenshitsu de Himitsu no xxx | Me and Aikawa and Secret XXX in the Nurse's Office (Prunus Girl)[ngocok]
 ![wadu bangsat petrik](http://puu.sh/qLFMG/857daee994.jpg)
  yha inilah dia ririsan pertama dari kami jadi kalo ada tipo ato yang lain harap di maklumi hehe
-
-
->Artist: gujira <br>
->Parody : prunus girl  <br>
+<br>
+>Artist: gujira minakami kurena <br>
+>Parody : prunus girl <br>
 
 >Download : <br>
 >Galeri (e hentai) : <br>
