@@ -15,9 +15,9 @@ finished: true
 ----------
 
 
-> language : indonesian 
-> parody : prunus girl 
-> artist : gujira ,minakami kurena 
+> language : indonesian <br>
+> parody : prunus girl <br>
+> artist : gujira ,minakami kurena <br>
 > male : anal,blowjob,crossdressing,males only,schoolgirl uniform,shotacon, tomgirl,yaoi
 
 
